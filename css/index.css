@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;   
+    color: #737373; 
+    margin: 0;
+}
+.head-image h1{
+    font-size:58px;
+}
+.indent{
+    margin: 30px 0 60px 0;
+}
+.container{
+    padding-left: 8%;
+    max-width: 94%;
+}
+.logo{
+    margin-left: 10%;    
+    height: 101.76px;
+    width: auto;
+    margin-top: 13px;
+}
+.flex-container{
+    display: flex;
+    justify-content:center;
+    flex: 0 0 99%;
+}
+.flex-center-item{
+
+}
+.flex-container img{
+    padding-right: 25%;
+}
+.flex-head{
+    padding: 64px 2.8%;
+}
+div a{
+    outline: none;
+  text-decoration: none;
+    color: #252B42;
+}
+.head-image{
+    color: #FFFFFF;
+    background-image: url(../images/header-bg.jpg); 
+    background-size:cover;
+    background-color: black;
+    padding: 73px 0;
+}
+.text-center{
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content:center;     
+}
+.orange-button{
+    color: #FFFFFF;
+    padding: 8px 60px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    margin-right: 1.35%;   
+}
+.whitebutton{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 8px 60px;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    margin-left: 1.35%; 
+}
+.absolutes{
+    position:relative;
+    top:-75px;
+    text-align: center;
+}
+.balck-color{
+    color: #000;
+}
+.orange-color{
+    color: #FA4A0C
+}
+.bottom-image{
+    margin-top: 95px;
+    color: #FFFFFF;
+    background-image: url(../images/download-bg.jpg); 
+    background-size:cover;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 73px 0;
+}
+.bottom-image h1{
+    font-size:40px;
+    margin-bottom: 0;
+}
+.flex-icons{
+    padding: 25% 10%;
+    justify-content: space-between;
+}
+.flex-center{
+    flex: 0 0 auto;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+.flex-center p{
+    padding-top: 9%;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-control{
+    margin-bottom: 15px;
+    flex: 1 1 78%;
+    padding-left: 8%;
+    max-width: 47%;
+}
+.form-message{
+    margin-bottom: 15px;
+    flex: 0 0 98%;
+}
+input[type = "text"],
+input[type = "email"],
+input[type = "password"],
+input[type = "number"],
+textarea{
+    width: 100%;
+    padding: 6px;
+    color: #666;
+}
+@media (max-width: 1000px) {
+    .head-image h1{
+        font-size:48px;
+    }
+    .flex-container{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+    }
+    .container{
+        padding-left: 0;
+        max-width: 100%;
+    }
+}
